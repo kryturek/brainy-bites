@@ -394,13 +394,17 @@ button {
 		font-size: 1rem;
 	}
 }
-.answerButton:hover{
-	transition: background-color 0.2s;
-	background-color: rgb(240, 240, 240);
-	color: black;
+
+@media only screen and (min-width: 1200px) {
+	.answerButton:hover{
+		transition: background-color 0.2s;
+		background-color: rgb(240, 240, 240);
+		color: black;
+	}
 }
 .answerButton:focus {
 	border:black 4px solid;
+	color: black;
 }
 .correctBG {
 	animation: correctAnswer 1s forwards;
