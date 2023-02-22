@@ -8,12 +8,12 @@
 	--mandarin: #f37748ff;
 	--fuzzy-wuzzy: #d56062ff;
 
-	--star-command-blue-shade: #067ac284;
-	--jonquil-shade: #ecc30b84;
+	--star-command-blue-shade: #067ac260;
+	--jonquil-shade: #ecc30b50;
 	--medium-turquoise-shade: #6bc6c384;
 	--bright-teal-shade: #b8f2e684;
-	--mandarin-shade: #f3774884;
-	--fuzzy-wuzzy-shade: #d5606284;
+	--mandarin-shade: #f376485c;
+	--fuzzy-wuzzy-shade: #d560625d;
 
 	--main-font: "Anonymous Pro";
 	--accent-font: "Passion One";
@@ -49,7 +49,7 @@ body {
 	column-gap: 20px;
 	padding-right: 10px;
 	height: 50px;
-	background-color: var(--star-command-blue);
+	background-color: var(--fuzzy-wuzzy);
 	align-items: center;
 	border: 1px dotted black;
 }
@@ -65,7 +65,7 @@ body {
 }
 
 .nav-btn:hover {
-	background-color: var(--mandarin);
+	background-color: var(--star-command-blue);
 	cursor: pointer;
 	transform: scale(1.02);
 	transition: 100ms;
@@ -174,13 +174,13 @@ body {
 }
 .tile-paisley {
 	background: url("files/paisley.jpg"),
-		linear-gradient(var(--bright-teal-shade), rgba(0, 0, 0, 0.95));
+		linear-gradient(var(--mandarin-shade), rgba(0, 0, 0, 0.95));
 	background-blend-mode: overlay;
 	background-size: cover;
 }
 .tile-history {
 	background: url("files/history.jpg"),
-		linear-gradient(var(--bright-teal-shade), rgba(0, 0, 0, 0.95));
+		linear-gradient(var(--jonquil-shade), rgba(0, 0, 0, 0.95));
 	background-blend-mode: overlay;
 	background-size: cover;
 }
@@ -199,7 +199,7 @@ body {
 }
 .tile-greek-mythology {
 	background: url("files/greek-mythology.jpg"),
-		linear-gradient(var(--mandarin-shade), rgba(0, 0, 0, 0.95));
+		linear-gradient(var(--medium-turquoise-shade), rgba(0, 0, 0, 0.95));
 	background-blend-mode: overlay;
 	background-size: cover;
 	font-size: 1em;
@@ -212,7 +212,7 @@ body {
 }
 .tile-sports {
 	background: url("files/sports.jpg"),
-		linear-gradient(var(--jonquil-shade), rgba(0, 0, 0, 0.95));
+		linear-gradient(var(--medium-turquoise-shade), rgba(0, 0, 0, 0.95));
 	background-blend-mode: overlay;
 	background-size: cover;
 }
@@ -376,7 +376,8 @@ button {
 	max-width: 45%;
 	background-color: whitesmoke;
 	border-radius: 0.3rem;
-	color: rgb(96, 191, 223);
+	/* color: rgb(96, 191, 223); */
+	color: var(--star-command-blue);
 	font-weight: bold;
 	font-size: 2rem;
 }
