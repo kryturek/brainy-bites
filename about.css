@@ -1,0 +1,32 @@
+#main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px;
+}
+
+.section {
+	width: 80%;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.section h2 {
+	font-size: 2em;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.section p {
+	font-size: 1.2em;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+.section img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: 20px auto;
+}

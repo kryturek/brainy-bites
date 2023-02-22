@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Brainy Bites</title>
+  <script src="contact.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="contact.css">
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<img src="files/brainy-bites.png" alt="Brainy Bites"/>
+		</div>
+		<div id="nav">
+			<div class="nav-btn"><a href="index.html">HOME</a></div>
+			<div class="nav-btn">RANDOM QUIZ</div>
+			<div class="nav-btn"><a href="about.html">ABOUT</a></div>
+			<div class="nav-btn"><a href="contact.html">CONTACT</a></div>
+		</div>
+		<div id="main">
+			<div id="contact-form">
+				 <h1>Contact Us</h1>
+				 <form action="submit-form.php" id="contactForm" method="post">
+					  <label for="name">Name:</label>
+					  <input type="text" id="name" name="name" placeholder="Your name..">
+	  
+					  <label for="email">Email:</label>
+					  <input type="email" id="email" name="email" placeholder="Your email..">
+	  
+					  <label for="message">Message:</label>
+					  <textarea id="message" name="messgae" placeholder="Write something.."></textarea>
+	  
+					  <input type="submit" value="Submit">
+				 </form>
+			</div>
+			<div id="filler-info">
+				 <h2>Our Location</h2>
+				 <p>1234 Example Street</p>
+				 <p>City, State 12345</p>
+				 <br>
+				 <h2>Contact Information</h2>
+				 <p>Email: info@example.com</p>
+				 <p>Phone: 555-555-5555</p>
+				 <br>
+				 <h2>Hours of Operation</h2>
+				 <p>Monday-Friday: 9am-5pm</p>
+				 <p>Saturday: 9am-12pm</p>
+				 <p>Sunday: Closed</p>
+			</div>
+	  </div>	  
+		<div id="footer">
+			some footer
+		</div>
+	</div>
+</body>
+</html>
