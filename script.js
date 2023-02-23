@@ -64,6 +64,18 @@ function handleTileClick( e ){
   var div = document.createElement('div');
   main.appendChild(div);
   div.id = "question";
+  
+  //qn is short for 'question number'
+  var qnDiv = document.createElement('div');
+  div.appendChild(qnDiv);
+  qnDiv.id = "questionNumber";
+
+  //qt is short for 'question text'
+  var qtDiv = document.createElement('div');
+  div.appendChild(qtDiv);
+  qtDiv.id = "questionText";
+
+  qnDiv.innerHTML = "1";
 
   // Huge ugly if/else block to start the game
   // Gets the target classList, which is needed for getting category questions
@@ -72,72 +84,72 @@ function handleTileClick( e ){
   if( e.target.classList.contains("tile-any") )
   {
     questions = anyQuestions(json.questions);
-    div.innerHTML = questions[currentQuestion].question;
+    qtDiv.innerHTML = questions[currentQuestion].question;
   }
   else if( e.target.classList.contains("tile-geography") )
   {
     questions = categoryQuestions("geography", json.questions);
-    div.innerHTML = questions[currentQuestion].question;
+    qtDiv.innerHTML = questions[currentQuestion].question;
   }
   else if( e.target.classList.contains("tile-music") )
   {
     questions = categoryQuestions("music", json.questions);
-    div.innerHTML = questions[currentQuestion].question;
+    qtDiv.innerHTML = questions[currentQuestion].question;
   }
   else if( e.target.classList.contains("tile-literature") )
   {
     questions = categoryQuestions("literature", json.questions);
-    div.innerHTML = questions[currentQuestion].question;
+    qtDiv.innerHTML = questions[currentQuestion].question;
   }
   else if( e.target.classList.contains("tile-science") )
   {
     questions = categoryQuestions("science", json.questions);
-    div.innerHTML = questions[currentQuestion].question;
+    qtDiv.innerHTML = questions[currentQuestion].question;
   }
   else if( e.target.classList.contains("tile-cultures") )
   {
     questions = categoryQuestions("cultures", json.questions);
-    div.innerHTML = questions[currentQuestion].question;
+    qtDiv.innerHTML = questions[currentQuestion].question;
   }
   else if( e.target.classList.contains("tile-animals") )
   {
     questions = categoryQuestions("animals", json.questions);
-    div.innerHTML = questions[currentQuestion].question;
+    qtDiv.innerHTML = questions[currentQuestion].question;
   }
   else if( e.target.classList.contains("tile-paisley") )
   {
     questions = categoryQuestions("paisley", json.questions);
-    div.innerHTML = questions[currentQuestion].question;
+    qtDiv.innerHTML = questions[currentQuestion].question;
   }
   else if( e.target.classList.contains("tile-friends") )
   {
     questions = categoryQuestions("friends", json.questions);
-    div.innerHTML = questions[currentQuestion].question;
+    qtDiv.innerHTML = questions[currentQuestion].question;
   }
     else if( e.target.classList.contains("tile-food") )
   {
     questions = categoryQuestions("food", json.questions);
-    div.innerHTML = questions[currentQuestion].question;
+    qtDiv.innerHTML = questions[currentQuestion].question;
   }
   else if( e.target.classList.contains("tile-greek-mythology") )
   {
     questions = categoryQuestions("greek-mythology", json.questions);
-    div.innerHTML = questions[currentQuestion].question;
+    qtDiv.innerHTML = questions[currentQuestion].question;
   }
   else if( e.target.classList.contains("tile-disney") )
   {
     questions = categoryQuestions("disney", json.questions);
-    div.innerHTML = questions[currentQuestion].question;
+    qtDiv.innerHTML = questions[currentQuestion].question;
   }
   else if( e.target.classList.contains("tile-sports") )
   {
     questions = categoryQuestions("sports", json.questions);
-    div.innerHTML = questions[currentQuestion].question;
+    qtDiv.innerHTML = questions[currentQuestion].question;
   }
   else
   {
     questions = categoryQuestions("history", json.questions);
-    div.innerHTML = questions[currentQuestion].question;
+    qtDiv.innerHTML = questions[currentQuestion].question;
   }
 
   main.style.height = "80%";
@@ -156,7 +168,10 @@ function handleTileClick( e ){
   
 }
 async function nextQuestion(){
-  let questionDiv = document.getElementById("question");
+  let questionNumberDiv = document.getElementById('questionNumber');
+  questionNumberDiv.innerHTML = (currentQuestion+1);
+
+  let questionDiv = document.getElementById("questionText");
   questionDiv.innerHTML = questions[currentQuestion].question;
   await removeAnswerButtons();
   addAnswerButtons(questions[currentQuestion].answers);
@@ -309,7 +324,7 @@ function anyQuestions( json ){
   // Shuffle array
   let randomised = questions.sort(() => 0.5 - Math.random());
 
-  // Get sub-array of first 5 elements after shuffled
+  // Get sub-array of first 10 elements after shuffled
   let selected = randomised.slice(0, 10);
 
   return selected;
