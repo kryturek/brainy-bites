@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Passion+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Sigmar+One&display=swap');
 
 :root {
 	--star-command-blue: #067bc2ff;
@@ -343,13 +344,13 @@ button {
 }
 #scoreContainer {
 	height: 6rem;
-	border-top: var(--mandarin) 6px solid;
+	border-top: var(--mandarin) 9px solid;
 }
 #question {
 	display: flex;
 	flex-direction: row;
 	margin-top: 20px;
-	border-bottom: var(--mandarin) 6px solid;
+	border-bottom: var(--mandarin) 9px solid;
 }
 
 @media screen and (max-width: 1100px) {
@@ -367,7 +368,7 @@ button {
 	align-items: center;
 	font-size: 3rem;
 	border-radius: 5%;
-	font-weight: 900;
+	font-family: 'Sigmar One';
 }
 
 @media screen and (max-width: 1100px) {
