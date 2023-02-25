@@ -210,7 +210,7 @@ body {
 	linear-gradient(var(--tilecolour, var(--base-tilecolour)), rgba(0, 0, 0, 0.95));
 	background-blend-mode: overlay;
 	background-size: cover;
-	font-size: 1em;
+	font-size: 1.03em;
 }
 .tile-disney {
 	background: url("files/disney.jpg"),
@@ -263,6 +263,9 @@ body {
 	.tile {
 		width: 400px;
 		height: 400px;
+	}
+	.tile-greek-mythology {
+		font-size: 1.32em;
 	}
 }
 
@@ -368,6 +371,15 @@ button {
 @media screen and (max-width: 1100px) {
 	#question {
 		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#question {
+		font-size: 1.7rem;
+	}
+	#scoreContainer{
+		text-align: center;
 	}
 }
 
