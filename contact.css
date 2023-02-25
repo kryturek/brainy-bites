@@ -1,5 +1,26 @@
+:root {
+	--star-command-blue: #067bc2ff;
+	--jonquil: #ecc30bff;
+	--medium-turquoise: #6bc6c3ff;
+	--bright-teal: #b8f2e6ff;
+	--mandarin: #f37748ff;
+	--fuzzy-wuzzy: #d56062ff;
+}
+
+
+html, body{
+	height: 100%;
+}
+
+#container{
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
 #main {
 	padding: 50px;
+	flex-grow: 1;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -38,7 +59,7 @@
 
 #contact-form input[type="submit"] {
 	width: 100%;
-	background-color: #f37748ff;
+	background-color: #067bc2ff;
 	color: white;
 	padding: 14px 20px;
 	margin: 8px 0;
@@ -48,7 +69,7 @@
 }
 
 #contact-form input[type="submit"]:hover {
-	background-color: rgb(230, 103, 57);
+	background-color: rgb(12, 111, 172);
 }
 
 #contact-info {
@@ -60,6 +81,11 @@
 	margin-bottom: 10px;
 }
 
+#footer{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
 
 @media (max-width: 768px) {
 	#main {
