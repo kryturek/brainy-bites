@@ -30,3 +30,25 @@
 	border-radius: 50%;
 	margin: 20px auto;
 }
+
+#thanks{
+	margin-top: 20px;
+	width: 50%;
+	text-align: center;
+}
+
+#thanks h2{
+	text-decoration: underline;
+}
+
+#signature{
+	margin-top: 10px;
+	font-size: 3rem;
+	font-family: 'Brush Script MT';
+}
+
+@media (max-width: 600px) {
+	#thanks{
+		width: 100%;
+	}
+}
