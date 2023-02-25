@@ -144,6 +144,7 @@ body {
 		linear-gradient(var(--tilecolour, var(--base-tilecolour)), rgba(0, 0, 0, 0.95));
 	background-blend-mode: overlay;
 	background-size: cover;
+	background-position-x: right;
 }
 
 .tile-music {
