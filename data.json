@@ -840,6 +840,39 @@
 			"category": "literature"
 		},
 		{
+			"question": "What is the title of Aleksandr Solzhenitsyn's novel about Soviet labor camps?",
+			"answers": [
+				{ "text": "The Idiot", "correct": false },
+				{ "text": "The Master and Margarita", "correct": false },
+				{
+					"text": "One Day in the Life of Ivan Denisovich",
+					"correct": true
+				},
+				{ "text": "The Gulag Archipelago", "correct": false }
+			],
+			"category": "literature"
+		},
+		{
+			"question": "Who wrote the play 'The Cherry Orchard'?",
+			"answers": [
+				{ "text": "Leo Tolstoy", "correct": false },
+				{ "text": "Fyodor Dostoevsky", "correct": false },
+				{ "text": "Anton Chekhov", "correct": true },
+				{ "text": "Nikolai Gogol", "correct": false }
+			],
+			"category": "literature"
+		},
+		{
+			"question": "What is the title of Vladimir Nabokov's most famous novel?",
+			"answers": [
+				{ "text": "Lolita", "correct": true },
+				{ "text": "The Master and Margarita", "correct": false },
+				{ "text": "The Idiot", "correct": false },
+				{ "text": "The Brothers Karamazov", "correct": false }
+			],
+			"category": "literature"
+		},
+		{
 			"question": "Who wrote the novel 'To Kill a Mockingbird'?",
 			"answers": [
 				{
@@ -1015,6 +1048,27 @@
 			],
 			"category": "literature"
 		},
+		{
+			"question": "Who wrote the novel 'War and Peace'?",
+			"answers": [
+				{ "text": "Leo Tolstoy", "correct": true },
+				{ "text": "Fyodor Dostoevsky", "correct": false },
+				{ "text": "Anton Chekhov", "correct": false },
+				{ "text": "Nikolai Gogol", "correct": false }
+			],
+			"category": "literature"
+		},
+		{
+			"question": "Which of the following is a novel by Fyodor Dostoevsky?",
+			"answers": [
+				{ "text": "Anna Karenina", "correct": false },
+				{ "text": "The First Circle", "correct": false },
+				{ "text": "Crime and Punishment", "correct": true },
+				{ "text": "Doctor Zhivago", "correct": false }
+			],
+			"category": "literature"
+		},
+
 		{
 			"question": "What is the name of the river that flows through Paisley?",
 			"answers": [
@@ -2090,9 +2144,9 @@
 		{
 			"question": "What is the name of the most prestigious and oldest tennis tournament in the world?",
 			"answers": [
-				{ "text": "Wimbledon", "correct": true },
 				{ "text": "French Open", "correct": false },
 				{ "text": "US Open", "correct": false },
+				{ "text": "Wimbledon", "correct": true },
 				{ "text": "Australian Open", "correct": false }
 			],
 			"category": "sports"
@@ -2110,10 +2164,10 @@
 		{
 			"question": "Which country has won the most Olympic gold medals in swimming?",
 			"answers": [
-				{ "text": "United States", "correct": true },
 				{ "text": "Australia", "correct": false },
 				{ "text": "China", "correct": false },
-				{ "text": "Russia", "correct": false }
+				{ "text": "Russia", "correct": false },
+				{ "text": "United States", "correct": true }
 			],
 			"category": "sports"
 		},
@@ -2130,9 +2184,9 @@
 		{
 			"question": "Which country has won the most FIFA World Cup tournaments?",
 			"answers": [
-				{ "text": "Brazil", "correct": true },
 				{ "text": "Germany", "correct": false },
 				{ "text": "Argentina", "correct": false },
+				{ "text": "Brazil", "correct": true },
 				{ "text": "Italy", "correct": false }
 			],
 			"category": "sports"
@@ -2143,18 +2197,19 @@
 				{ "text": "Pittsburgh Steelers", "correct": false },
 				{ "text": "San Francisco 49ers", "correct": false },
 				{ "text": "New England Patriots", "correct": false },
-				{ "text": "Dallas Cowboys", "correct": false }
+				{ "text": "New York Giants", "correct": true }
 			],
 			"category": "sports"
 		},
 		{
 			"question": "How many players are on the field for a standard association football (soccer) match?",
 			"answers": [
-				{ "text": "11", "correct": true },
 				{ "text": "10", "correct": false },
 				{ "text": "15", "correct": false },
+				{ "text": "11", "correct": true },
 				{ "text": "9", "correct": false }
 			],
 			"category": "sports"
-    }
-]}
+		}
+	]
+}
