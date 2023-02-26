@@ -141,7 +141,7 @@ body {
 
 .tile-geography {
 	background: url("files/geography.jpg"),
-		linear-gradient(var(--tilecolour, var(--base-tilecolour)), rgba(0, 0, 0, 0.95));
+	linear-gradient(var(--tilecolour, var(--base-tilecolour)), rgba(0, 0, 0, 0.95));
 	background-blend-mode: overlay;
 	background-size: cover;
 	background-position: right;
