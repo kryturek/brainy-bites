@@ -71,6 +71,56 @@
 			"category": "cultures"
 		},
 		{
+			"question": "What is the traditional instrument of the Aboriginal people of Australia?",
+			"answers": [
+				{ "text": "Didgeridoo", "correct": true },
+				{ "text": "Erhu", "correct": false },
+				{ "text": "Sitar", "correct": false },
+				{ "text": "Koto", "correct": false }
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "What is the national dish of Spain?",
+			"answers": [
+				{ "text": "Sushi", "correct": false },
+				{ "text": "Schnitzel", "correct": false },
+				{ "text": "Paella", "correct": true },
+				{ "text": "Currywurst", "correct": false }
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "What is the traditional dance of Hawaii?",
+			"answers": [
+				{ "text": "Bharatanatyam", "correct": false },
+				{ "text": "Ballet", "correct": false },
+				{ "text": "Hula", "correct": true },
+				{ "text": "Flamenco", "correct": false }
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "What is the national flower of India?",
+			"answers": [
+				{ "text": "Cherry blossom", "correct": false },
+				{ "text": "Lotus", "correct": true },
+				{ "text": "Rose", "correct": false },
+				{ "text": "Lily", "correct": false }
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "What is the traditional headgear worn by men in Scotland?",
+			"answers": [
+				{ "text": "Beret", "correct": false },
+				{ "text": "Top hat", "correct": false },
+				{ "text": "Fez", "correct": false },
+				{ "text": "Bonnet", "correct": true }
+			],
+			"category": "cultures"
+		},
+		{
 			"question": "Which country is famous for the production of wine?",
 			"answers": [
 				{ "text": "Italy", "correct": true },
@@ -79,6 +129,56 @@
 				{ "text": "Germany", "correct": false }
 			],
 			"category": "cultures"
+		},
+		{
+			"question": "What is the name of the traditional Scottish dress?",
+			"answers": [
+				{ "text": "Kilt", "correct": true },
+				{ "text": "Sari", "correct": false },
+				{ "text": "Lehenga", "correct": false },
+				{ "text": "Qipao", "correct": false }
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "Which instrument is commonly used in traditional Irish music?",
+			"answers": [
+				{ "text": "Sitar", "correct": false },
+				{ "text": "Bagpipes", "correct": false },
+				{ "text": "Bodhrán", "correct": true },
+				{ "text": "Guitar", "correct": false }
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "Which country is famous for its traditional art of origami?",
+			"answers": [
+				{ "text": "China", "correct": false },
+				{ "text": "Japan", "correct": true },
+				{ "text": "Thailand", "correct": false },
+				{ "text": "India", "correct": false }
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "Which country is home to the ancient city of Petra?",
+			"answers": [
+				{ "text": "Egypt", "correct": false },
+				{ "text": "Jordan", "correct": true },
+				{ "text": "Iraq", "correct": false },
+				{ "text": "Saudi Arabia", "correct": false }
+			],
+			"category": "geography"
+		},
+		{
+			"question": "What is the capital city of South Korea?",
+			"answers": [
+				{ "text": "Beijing", "correct": false },
+				{ "text": "Seoul", "correct": true },
+				{ "text": "Tokyo", "correct": false },
+				{ "text": "Bangkok", "correct": false }
+			],
+			"category": "geography"
 		},
 		{
 			"question": "What is the capital of Ireland?",
@@ -151,7 +251,7 @@
 			"category": "geography"
 		},
 		{
-			"question": "What colour is the cross on the Swedish Flag?",
+			"question": "What colour is the cross on the Swedish flag?",
 			"answers": [
 				{ "text": "Pink", "correct": false },
 				{ "text": "White", "correct": false },
@@ -161,7 +261,7 @@
 			"category": "geography"
 		},
 		{
-			"question": "How many countries start with 'F'?",
+			"question": "How many countries start with an 'F'?",
 			"answers": [
 				{ "text": "20", "correct": false },
 				{ "text": "5", "correct": false },
@@ -171,7 +271,7 @@
 			"category": "geography"
 		},
 		{
-			"question": "What is the longest river in the world??",
+			"question": "What is the longest river in the world?",
 			"answers": [
 				{ "text": "Clyde", "correct": false },
 				{ "text": "Nile", "correct": true },
@@ -293,22 +393,10 @@
 		{
 			"question": "What is the real name of rapper Snoop Dogg?",
 			"answers": [
-				{
-					"text": "Calvin Cordozar Broadus Jr.",
-					"correct": true
-				},
-				{
-					"text": "Snoop Doggy Dogg",
-					"correct": false
-				},
-				{
-					"text": "Snoop Lion",
-					"correct": false
-				},
-				{
-					"text": "Snoop Doggy",
-					"correct": false
-				}
+				{ "text": "Curtis Jackson", "correct": false },
+				{ "text": "Calvin Cordozar Broadus Jr.", "correct": true },
+				{ "text": "Andre Young", "correct": false },
+				{ "text": "Marshall Mathers", "correct": false }
 			],
 			"category": "music"
 		},
@@ -440,6 +528,113 @@
 			],
 			"category": "music"
 		},
+		{
+			"question": "Which composer is known as the 'father of classical music'?",
+			"answers": [
+				{ "text": "Bach", "correct": true },
+				{ "text": "Beethoven", "correct": false },
+				{ "text": "Mozart", "correct": false },
+				{ "text": "Haydn", "correct": false }
+			],
+			"category": "music"
+		},
+		{
+			"question": "Who is often considered the 'Godfather of Hip Hop'?",
+			"answers": [
+				{ "text": "Afrika Bambaataa", "correct": true },
+				{ "text": "Grandmaster Flash", "correct": false },
+				{ "text": "Kool Herc", "correct": false },
+				{ "text": "LL Cool J", "correct": false }
+			],
+			"category": "music"
+		},
+		{
+			"question": "Which band is often credited with creating the heavy metal genre?",
+			"answers": [
+				{ "text": "Black Sabbath", "correct": true },
+				{ "text": "Iron Maiden", "correct": false },
+				{ "text": "Judas Priest", "correct": false },
+				{ "text": "Metallica", "correct": false }
+			],
+			"category": "music"
+		},
+		{
+			"question": "Which of these bands is considered a pioneer of rock music?",
+			"answers": [
+				{ "text": "The Beatles", "correct": true },
+				{ "text": "Led Zeppelin", "correct": false },
+				{ "text": "Pink Floyd", "correct": false },
+				{ "text": "The Rolling Stones", "correct": false }
+			],
+			"category": "music"
+		},
+		{
+			"question": "Who is the pioneer of techno music?",
+			"answers": [
+				{ "text": "Jeff Mills", "correct": false },
+				{ "text": "Juan Atkins", "correct": true },
+				{ "text": "Derrick May", "correct": false },
+				{ "text": "Kevin Saunderson", "correct": false }
+			],
+			"category": "music"
+		},
+		{
+			"question": "What is the difference between a sonata and a symphony?",
+			"answers": [
+				{ "text": "Solo/small group vs orchestra", "correct": true },
+				{ "text": "3 vs 4 movements", "correct": false },
+				{ "text": "Vocal vs instrumental", "correct": false },
+				{ "text": "No difference", "correct": false }
+			],
+			"category": "music"
+		},
+		{
+			"question": "What distinguishes jazz from other music genres?",
+			"answers": [
+				{ "text": "Improvisation and syncopation", "correct": true },
+				{ "text": "Electronic instruments", "correct": false },
+				{ "text": "Primarily instrumental", "correct": false },
+				{ "text": "Exclusively African-American", "correct": false }
+			],
+			"category": "music"
+		},
+		{
+			"question": "What is the difference between a ballad and a folk song?",
+			"answers": [
+				{ "text": "Narrative vs simple and catchy", "correct": true },
+				{ "text": "Sad vs happy", "correct": false },
+				{ "text": "Political vs apolitical", "correct": false },
+				{ "text": "No difference", "correct": false }
+			],
+			"category": "music"
+		},
+		{
+			"question": "What distinguishes baroque music from other classical music genres?",
+			"answers": [
+				{ "text": "Ornamental and elaborate style", "correct": true },
+				{ "text": "Simple melodies and harmonies", "correct": false },
+				{ "text": "Exclusively vocal", "correct": false },
+				{ "text": "Exclusively orchestral", "correct": false }
+			],
+			"category": "music"
+		},
+		{
+			"question": "What distinguishes metal music from other rock genres?",
+			"answers": [
+				{
+					"text": "Heavy distortion and aggressive sound",
+					"correct": true
+				},
+				{
+					"text": "Simple and straightforward song structures",
+					"correct": false
+				},
+				{ "text": "Exclusively instrumental", "correct": false },
+				{ "text": "Exclusively female musicians", "correct": false }
+			],
+			"category": "music"
+		},
+
 		{
 			"question": "Which ancient Egyptian pharaoh is known for building the Great Pyramid of Giza?",
 			"answers": [
@@ -796,6 +991,68 @@
 			"category": "science"
 		},
 		{
+			"question": "What is the process of converting a solid directly to a gas called?",
+			"answers": [
+				{ "text": "Melting", "correct": false },
+				{ "text": "Condensation", "correct": false },
+				{ "text": "Sublimation", "correct": true },
+				{ "text": "Evaporation", "correct": false }
+			],
+			"category": "science"
+		},
+		{
+			"question": "What is the pH of a neutral solution?",
+			"answers": [
+				{ "text": "1", "correct": false },
+				{ "text": "7", "correct": true },
+				{ "text": "14", "correct": false },
+				{ "text": "0", "correct": false }
+			],
+			"category": "science"
+		},
+		{
+			"question": "What is the name of the process by which plants convert light energy into chemical energy?",
+			"answers": [
+				{ "text": "Photosynthesis", "correct": true },
+				{ "text": "Respiration", "correct": false },
+				{ "text": "Digestion", "correct": false },
+				{ "text": "Excretion", "correct": false }
+			],
+			"category": "science"
+		},
+		{
+			"question": "What is the atomic number of carbon?",
+			"answers": [
+				{ "text": "6", "correct": true },
+				{ "text": "8", "correct": false },
+				{ "text": "12", "correct": false },
+				{ "text": "14", "correct": false }
+			],
+			"category": "science"
+		},
+		{
+			"question": "What is the law of conservation of mass?",
+			"answers": [
+				{
+					"text": "Mass is neither created nor destroyed in a chemical reaction.",
+					"correct": true
+				},
+				{
+					"text": "Mass is created in a chemical reaction.",
+					"correct": false
+				},
+				{
+					"text": "Mass is destroyed in a chemical reaction.",
+					"correct": false
+				},
+				{
+					"text": "Mass changes form in a chemical reaction.",
+					"correct": false
+				}
+			],
+			"category": "science"
+		},
+		{
 			"question": "What is the title of William Shakespeare's play about two star-crossed lovers?",
 			"answers": [
 				{
@@ -869,6 +1126,16 @@
 				{ "text": "The Master and Margarita", "correct": false },
 				{ "text": "The Idiot", "correct": false },
 				{ "text": "The Brothers Karamazov", "correct": false }
+			],
+			"category": "literature"
+		},
+		{
+			"question": "Who wrote the epic poem The Iliad?",
+			"answers": [
+				{ "text": "Homer", "correct": true },
+				{ "text": "Virgil", "correct": false },
+				{ "text": "Ovid", "correct": false },
+				{ "text": "Sophocles", "correct": false }
 			],
 			"category": "literature"
 		},
@@ -1408,28 +1675,6 @@
 			"category": "animals"
 		},
 		{
-			"question": "Which of the following animals is known to be the smallest mammal in the world?",
-			"answers": [
-				{
-					"text": "Shrew",
-					"correct": true
-				},
-				{
-					"text": "Mouse",
-					"correct": false
-				},
-				{
-					"text": "Rat",
-					"correct": false
-				},
-				{
-					"text": "Hamster",
-					"correct": false
-				}
-			],
-			"category": "animals"
-		},
-		{
 			"question": "Which of the following animals is known to be the fastest animal in the water?",
 			"answers": [
 				{
@@ -1452,6 +1697,56 @@
 			"category": "animals"
 		},
 		{
+			"question": "What is the scientific name for a domesticated dog?",
+			"answers": [
+				{ "text": "Canis lupus", "correct": false },
+				{ "text": "Canis lupus familiaris", "correct": true },
+				{ "text": "Canis domesticus", "correct": false },
+				{ "text": "Canis domesticus lupus", "correct": false }
+			],
+			"category": "animals"
+		},
+		{
+			"question": "What type of animal is a flamingo?",
+			"answers": [
+				{ "text": "Mammal", "correct": false },
+				{ "text": "Bird", "correct": true },
+				{ "text": "Reptile", "correct": false },
+				{ "text": "Fish", "correct": false }
+			],
+			"category": "animals"
+		},
+		{
+			"question": "What is the name for a group of lions?",
+			"answers": [
+				{ "text": "Herd", "correct": false },
+				{ "text": "Flock", "correct": false },
+				{ "text": "Pride", "correct": true },
+				{ "text": "Gaggle", "correct": false }
+			],
+			"category": "animals"
+		},
+		{
+			"question": "What is the scientific name for a house cat?",
+			"answers": [
+				{ "text": "Felis catus", "correct": true },
+				{ "text": "Canis lupus", "correct": false },
+				{ "text": "Panthera tigris", "correct": false },
+				{ "text": "Equus ferus", "correct": false }
+			],
+			"category": "animals"
+		},
+		{
+			"question": "What is the gestation period of a lion?",
+			"answers": [
+				{ "text": "3 months", "correct": false },
+				{ "text": "6 months", "correct": false },
+				{ "text": "9 months", "correct": true },
+				{ "text": "1 year", "correct": false }
+			],
+			"category": "animals"
+		},
+		{
 			"question": "What is the largest species of shark?",
 			"answers": [
 				{
@@ -1470,6 +1765,36 @@
 					"text": "Hammerhead Shark",
 					"correct": false
 				}
+			],
+			"category": "animals"
+		},
+		{
+			"question": "What is the name of the largest rodent in the world?",
+			"answers": [
+				{ "text": "Giant beaver", "correct": false },
+				{ "text": "Mega mouse", "correct": false },
+				{ "text": "Capybara", "correct": true },
+				{ "text": "King rat", "correct": false }
+			],
+			"category": "animals"
+		},
+		{
+			"question": "What is the name of the only marsupial found in North America?",
+			"answers": [
+				{ "text": "Kangaroo", "correct": false },
+				{ "text": "Wallaby", "correct": false },
+				{ "text": "Possum", "correct": true },
+				{ "text": "Tasmanian devil", "correct": false }
+			],
+			"category": "animals"
+		},
+		{
+			"question": "What is the name of the only bird that can fly backwards?",
+			"answers": [
+				{ "text": "Penguin", "correct": false },
+				{ "text": "Ostrich", "correct": false },
+				{ "text": "Hummingbird", "correct": true },
+				{ "text": "Kiwi", "correct": false }
 			],
 			"category": "animals"
 		},
