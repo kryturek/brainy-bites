@@ -121,6 +121,9 @@ function handleTileClick(e) {
 	} else if (e.target.classList.contains("tile-sports")) {
 		questions = categoryQuestions("sports", json.questions);
 		qtDiv.innerHTML = questions[currentQuestion].question;
+	} else if (e.target.classList.contains("tile-linguistics")) {
+		questions = categoryQuestions("linguistics", json.questions);
+		qtDiv.innerHTML = questions[currentQuestion].question;
 	} else {
 		questions = categoryQuestions("history", json.questions);
 		qtDiv.innerHTML = questions[currentQuestion].question;

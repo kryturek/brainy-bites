@@ -23,7 +23,7 @@
 		{
 			"question": "Which countries are the two main producers of coffee?",
 			"answers": [
-				{ "text": "Colombia and Ethiopia", "correct": true },
+				{ "text": "Colombia and Ethiopia", "correct": false },
 				{ "text": "Brazil and Vietnam", "correct": true },
 				{ "text": "India and Kenya", "correct": false },
 				{ "text": "Jamaica and Hawaii", "correct": false }
@@ -2210,6 +2210,280 @@
 				{ "text": "9", "correct": false }
 			],
 			"category": "sports"
+		},
+		{
+			"question": "What is the most widely spoken language in the world?",
+			"answers": [
+				{ "text": "Mandarin Chinese", "correct": true },
+				{ "text": "English", "correct": false },
+				{ "text": "Spanish", "correct": false },
+				{ "text": "Hindi", "correct": false }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "Which language family does English belong to?",
+			"answers": [
+				{ "text": "Romance", "correct": false },
+				{ "text": "Slavic", "correct": false },
+				{ "text": "Germanic", "correct": true },
+				{ "text": "Celtic", "correct": false }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "Which of the following is not a tonal language?",
+			"answers": [
+				{ "text": "Mandarin Chinese", "correct": false },
+				{ "text": "Thai", "correct": false },
+				{ "text": "Russian", "correct": true },
+				{ "text": "Yoruba", "correct": false }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "What is the name for the study of word origins and history?",
+			"answers": [
+				{ "text": "Morphology", "correct": false },
+				{ "text": "Syntax", "correct": false },
+				{ "text": "Etymology", "correct": true },
+				{ "text": "Phonetics", "correct": false }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "Which language is considered the most difficult for English speakers to learn?",
+			"answers": [
+				{ "text": "Mandarin Chinese", "correct": true },
+				{ "text": "Arabic", "correct": false },
+				{ "text": "Russian", "correct": false },
+				{ "text": "Swahili", "correct": false }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "What is the study of the structure and rules of language called?",
+			"answers": [
+				{ "text": "Phonetics", "correct": false },
+				{ "text": "Syntax", "correct": true },
+				{ "text": "Semantics", "correct": false },
+				{ "text": "Pragmatics", "correct": false }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "What is the term for a word or phrase that has the same meaning as another word or phrase?",
+			"answers": [
+				{ "text": "Antonym", "correct": false },
+				{ "text": "Homonym", "correct": false },
+				{ "text": "Synonym", "correct": true },
+				{ "text": "Heteronym", "correct": false }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "What is the term for a language that is no longer spoken or used in everyday communication?",
+			"answers": [
+				{ "text": "Dialect", "correct": false },
+				{ "text": "Slang", "correct": false },
+				{ "text": "Creole", "correct": false },
+				{ "text": "Dead language", "correct": true }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "What is the term for the study of the origin and history of words?",
+			"answers": [
+				{ "text": "Etymology", "correct": true },
+				{ "text": "Morphology", "correct": false },
+				{ "text": "Lexicography", "correct": false },
+				{ "text": "Pragmatics", "correct": false }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "What is the term for the smallest unit of meaning in a language?",
+			"answers": [
+				{ "text": "Phoneme", "correct": false },
+				{ "text": "Morpheme", "correct": true },
+				{ "text": "Lexeme", "correct": false },
+				{ "text": "Sememe", "correct": false }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "What is the study of meaning in language called?",
+			"answers": [
+				{ "text": "Syntax", "correct": false },
+				{ "text": "Phonetics", "correct": false },
+				{ "text": "Morphology", "correct": false },
+				{ "text": "Semantics", "correct": true }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "What is the term for the sound of a word?",
+			"answers": [
+				{ "text": "Phoneme", "correct": false },
+				{ "text": "Morpheme", "correct": false },
+				{ "text": "Grapheme", "correct": false },
+				{ "text": "Phonetics", "correct": true }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "What is the name for a word that sounds like what it means?",
+			"answers": [
+				{ "text": "Synonym", "correct": false },
+				{ "text": "Homophone", "correct": false },
+				{ "text": "Onomatopoeia", "correct": true },
+				{ "text": "Antonym", "correct": false }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "What is the term for the rules that govern the structure of language?",
+			"answers": [
+				{ "text": "Syntax", "correct": true },
+				{ "text": "Morphology", "correct": false },
+				{ "text": "Phonetics", "correct": false },
+				{ "text": "Semantics", "correct": false }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "What is the study of language history and development called?",
+			"answers": [
+				{ "text": "Phonetics", "correct": false },
+				{ "text": "Morphology", "correct": false },
+				{ "text": "Syntax", "correct": false },
+				{ "text": "Historical linguistics", "correct": true }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "What is the study of word meanings called?",
+			"answers": [
+				{ "text": "Syntax", "correct": false },
+				{ "text": "Morphology", "correct": false },
+				{ "text": "Semantics", "correct": true },
+				{ "text": "Pragmatics", "correct": false }
+			],
+			"category": "linguistics"
+		},
+
+		{
+			"question": "What term describes the study of how sounds are produced in speech?",
+			"answers": [
+				{ "text": "Phonology", "correct": false },
+				{ "text": "Morphology", "correct": false },
+				{ "text": "Syntax", "correct": false },
+				{ "text": "Phonetics", "correct": true }
+			],
+			"category": "linguistics"
+		},
+
+		{
+			"question": "What is the term for the smallest unit of sound that can change the meaning of a word?",
+			"answers": [
+				{ "text": "Morpheme", "correct": false },
+				{ "text": "Phoneme", "correct": true },
+				{ "text": "Sememe", "correct": false },
+				{ "text": "Grapheme", "correct": false }
+			],
+			"category": "linguistics"
+		},
+
+		{
+			"question": "What is the study of the evolution and history of language called?",
+			"answers": [
+				{ "text": "Sociolinguistics", "correct": false },
+				{ "text": "Neurolinguistics", "correct": false },
+				{ "text": "Historical Linguistics", "correct": true },
+				{ "text": "Applied Linguistics", "correct": false }
+			],
+			"category": "linguistics"
+		},
+
+		{
+			"question": "What is the term for the grammatical category that expresses the relationship between a noun or pronoun and other elements in a sentence?",
+			"answers": [
+				{ "text": "Tense", "correct": false },
+				{ "text": "Mood", "correct": false },
+				{ "text": "Case", "correct": true },
+				{ "text": "Voice", "correct": false }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "What is the most widely spoken Indo-European language in the world?",
+			"answers": [
+				{ "text": "English", "correct": true },
+				{ "text": "Spanish", "correct": false },
+				{ "text": "Hindi", "correct": false },
+				{ "text": "Russian", "correct": false }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "Which Indo-European language is written in the Cyrillic script?",
+			"answers": [
+				{ "text": "Polish", "correct": false },
+				{ "text": "Serbian", "correct": true },
+				{ "text": "Greek", "correct": false },
+				{ "text": "Latvian", "correct": false }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "From which Indo-European language does English borrow the most words?",
+			"answers": [
+				{ "text": "Latin", "correct": false },
+				{ "text": "German", "correct": true },
+				{ "text": "Greek", "correct": false },
+				{ "text": "Russian", "correct": false }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "Which Indo-European language is the official language of Iran?",
+			"answers": [
+				{ "text": "Armenian", "correct": false },
+				{ "text": "Turkish", "correct": false },
+				{ "text": "Farsi", "correct": true },
+				{ "text": "Pashto", "correct": false }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "Which Indo-European language is spoken in Switzerland?",
+			"answers": [
+				{ "text": "German", "correct": true },
+				{ "text": "French", "correct": false },
+				{ "text": "Italian", "correct": false },
+				{ "text": "Spanish", "correct": false }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "What language family does the indigenous language Basque belong to?",
+			"answers": [
+				{ "text": "Indo-European", "correct": false },
+				{ "text": "Uralic", "correct": false },
+				{ "text": "Sino-Tibetan", "correct": false },
+				{ "text": "Isolate", "correct": true }
+			],
+			"category": "linguistics"
+		},
+		{
+			"question": "Pirahã, a language spoken in Brazil, is known for having what unusual linguistic feature?",
+			"answers": [
+				{ "text": "No vowels", "correct": false },
+				{ "text": "No consonants", "correct": false },
+				{ "text": "No nouns", "correct": false },
+				{ "text": "No numbers", "correct": true }
+			],
+			"category": "linguistics"
 		}
 	]
 }
