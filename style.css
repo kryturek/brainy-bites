@@ -361,13 +361,15 @@ button {
 	border-radius: 0.3rem;
 	font-size: 2.6rem;
 	padding: 1rem;
+
 }
-#Question {
-	height: auto;
-}
+
 #scoreContainer {
 	height: 6rem;
 	border-top: var(--mandarin) 9px solid;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 #question {
 	display: flex;
@@ -379,6 +381,11 @@ button {
 @media screen and (max-width: 1100px) {
 	#question {
 		flex-direction: column;
+		font-size: 2rem;
+	}
+	
+	#scoreContainer{
+		font-size: 2rem;
 	}
 }
 
@@ -388,6 +395,7 @@ button {
 	}
 	#scoreContainer{
 		text-align: center;
+		font-size: 1.7rem;
 	}
 }
 
@@ -414,13 +422,6 @@ button {
 	flex-grow: 1;
 }
 
-#ScoreContainer {
-	display: flex !important;
-	align-items: center;
-	justify-content: flex-start;
-
-	flex-direction: row;
-}
 #answerContainer {
 	display: flex;
 	flex-direction: row;

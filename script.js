@@ -86,7 +86,7 @@ function handleTileClick(e) {
 		questions = anyQuestions(json.questions);
 		qtDiv.innerHTML = questions[currentQuestion].question;
 	} else if (e.target.classList.contains("tile-geography")) {
-		questions = categoryQuestions("geography", json.questions);
+    questions = categoryQuestions("geography", json.questions);
 		qtDiv.innerHTML = questions[currentQuestion].question;
 	} else if (e.target.classList.contains("tile-music")) {
 		questions = categoryQuestions("music", json.questions);
@@ -129,6 +129,8 @@ function handleTileClick(e) {
 		qtDiv.innerHTML = questions[currentQuestion].question;
 	}
 
+  currentCategory = questions[currentQuestion].category.charAt(0).toUpperCase() + questions[currentQuestion].category.slice(1).replace(/-/g, " ");
+
 	main.style.height = "80%";
 
 	// Create and add the  answer div
@@ -142,11 +144,14 @@ function handleTileClick(e) {
 	main.appendChild(scoreContainer);
 	scoreContainer.id = "scoreContainer";
 	scoreContainer.innerHTML =
-		"Score: <span id='score'>" +
+		"<span id='scoreWrapper'>Score: <span id='score'>" +
 		currentScore +
 		"</span>/<span>" +
 		totalQuestions +
-		"</span>";
+		"</span></span>" + 
+    "<span id='category'>"
+    + currentCategory + 
+    "</span>";
 }
 async function nextQuestion() {
 	let questionNumberDiv = document.getElementById("questionNumber");
@@ -156,6 +161,11 @@ async function nextQuestion() {
 	questionDiv.innerHTML = questions[currentQuestion].question;
 	await removeAnswerButtons();
 	addAnswerButtons(questions[currentQuestion].answers);
+
+  //add the category to make the context clear in case of more obscure questions
+  currentCategory = questions[currentQuestion].category;
+  let category = document.getElementById("category");
+  category.innerHTML = currentCategory.charAt(0).toUpperCase() + currentCategory.slice(1).replace(/-/g, " ");
 }
 // Removes the answer buttons between questions.
 // No real need for this, could just change the text
@@ -193,27 +203,29 @@ function loadJson() {
 // In normal practice you'd probably do that, but again - verbosity
 function addAnswerButtons(answers) {
 
+  
   //initialise an array of positions
   let positions = [0, 1, 2, 3];
-
+  
   //randomise it
   positions = positions.sort(()=> 0.5 - Math.random());
-
+  
   //assign answers to each button, but utilise randomised positions array to put every answer in a random spot every time
 	for (i = 0; i < 4; i++) {
-		var answerButton = document.createElement("button");
+    var answerButton = document.createElement("button");
 		answerContainer.appendChild(answerButton);
 		answerButton.classList += "answerButton";
 		answerButton.innerText = answers[positions[i]].text;
 		answerButton.id = positions[i];
 	}
+
 	let answerButtons = document.getElementsByClassName("answerButton");
 	for (i = 0; i < answerButtons.length; i++) {
-		answerButtons[i].addEventListener("click", async function (e) {
-			assessment = validateAnswer(
-				questions[currentQuestion].answers[this.id].correct
-			);
-			console.log(assessment);
+    answerButtons[i].addEventListener("click", async function (e) {
+      assessment = validateAnswer(
+        questions[currentQuestion].answers[this.id].correct
+        );
+        console.log(assessment);
 			if (assessment.answer === true) {
 				currentScore++;
 				this.classList += " correctBG";
@@ -304,8 +316,8 @@ function categoryQuestions(category, json) {
     [questions[i], questions[j]] = [questions[j], questions[i]];
   }
   
-	// Get sub-array of first 5 elements after shuffled
-	let selected = questions.slice(0, 5);
+	// Get sub-array of first 10 elements after shuffled
+	let selected = questions.slice(0, 10);
   
   // alert(JSON.stringify(selected));
 
