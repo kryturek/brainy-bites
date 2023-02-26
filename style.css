@@ -230,6 +230,7 @@ body {
 	background-blend-mode: overlay;
 	background-size: cover;
 	background-position-x: center;
+	font-size: 1.3em;
 }
 
 #footer {
