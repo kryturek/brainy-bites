@@ -189,12 +189,20 @@ function loadJson() {
 // Can be edited to add more or less buttons, or go entirely by the array length
 // In normal practice you'd probably do that, but again - verbosity
 function addAnswerButtons(answers) {
+
+  //initialise an array of positions
+  let positions = [0, 1, 2, 3];
+
+  //randomise it
+  positions = positions.sort(()=> 0.5 - Math.random());
+
+  //assign answers to each button, but utilise randomised positions array to put every answer in a random spot every time
 	for (i = 0; i < 4; i++) {
 		var answerButton = document.createElement("button");
 		answerContainer.appendChild(answerButton);
 		answerButton.classList += "answerButton";
-		answerButton.innerText = answers[i].text;
-		answerButton.id = i;
+		answerButton.innerText = answers[positions[i]].text;
+		answerButton.id = positions[i];
 	}
 	let answerButtons = document.getElementsByClassName("answerButton");
 	for (i = 0; i < answerButtons.length; i++) {
