@@ -11,6 +11,358 @@
 			"category": "cultures"
 		},
 		{
+			"question": "What is the most widely spoken language in Brazil?",
+			"answers": [
+				{
+					"text": "Spanish",
+					"correct": false
+				},
+				{
+					"text": "Portuguese",
+					"correct": true
+				},
+				{
+					"text": "English",
+					"correct": false
+				},
+				{
+					"text": "French",
+					"correct": false
+				}
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "What is the name of the traditional Japanese tea ceremony?",
+			"answers": [
+				{
+					"text": "Sado",
+					"correct": true
+				},
+				{
+					"text": "Kodo",
+					"correct": false
+				},
+				{
+					"text": "Kyudo",
+					"correct": false
+				},
+				{
+					"text": "Aikido",
+					"correct": false
+				}
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "What is the name of the traditional instrument played by Native Americans?",
+			"answers": [
+				{
+					"text": "Flute",
+					"correct": true
+				},
+				{
+					"text": "Guitar",
+					"correct": false
+				},
+				{
+					"text": "Piano",
+					"correct": false
+				},
+				{
+					"text": "Drums",
+					"correct": false
+				}
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "What is the name of the traditional headgear worn by Arab men?",
+			"answers": [
+				{
+					"text": "Keffiyeh",
+					"correct": true
+				},
+				{
+					"text": "Turban",
+					"correct": false
+				},
+				{
+					"text": "Fedora",
+					"correct": false
+				},
+				{
+					"text": "Baseball cap",
+					"correct": false
+				}
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "What is the name of the traditional Kazakh hat?",
+			"answers": [
+				{
+					"text": "Kalpak",
+					"correct": true
+				},
+				{
+					"text": "Kippah",
+					"correct": false
+				},
+				{
+					"text": "Fez",
+					"correct": false
+				},
+				{
+					"text": "Sombrero",
+					"correct": false
+				}
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "In which country can you find the ancient ruins of the city of Mohenjo-daro, which was part of the Indus Valley Civilization?",
+			"answers": [
+				{
+					"text": "Pakistan",
+					"correct": true
+				},
+				{
+					"text": "India",
+					"correct": false
+				},
+				{
+					"text": "Nepal",
+					"correct": false
+				},
+				{
+					"text": "Bangladesh",
+					"correct": false
+				}
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "In what country would you find the city of Cusco, which was once the capital of the Inca Empire?",
+			"answers": [
+				{
+					"text": "Peru",
+					"correct": true
+				},
+				{
+					"text": "Mexico",
+					"correct": false
+				},
+				{
+					"text": "Ecuador",
+					"correct": false
+				},
+				{
+					"text": "Colombia",
+					"correct": false
+				}
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "Which indigenous people of Siberia are known for their unique throat-singing style of music?",
+			"answers": [
+				{
+					"text": "Tuvans",
+					"correct": true
+				},
+				{
+					"text": "Yakuts",
+					"correct": false
+				},
+				{
+					"text": "Nenets",
+					"correct": false
+				},
+				{
+					"text": "Evenks",
+					"correct": false
+				}
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "What is the name of the traditional Eskimo greeting that involves pressing noses together?",
+			"answers": [
+				{
+					"text": "Eskimo kiss",
+					"correct": true
+				},
+				{
+					"text": "Igloo hug",
+					"correct": false
+				},
+				{
+					"text": "Polar bear handshake",
+					"correct": false
+				},
+				{
+					"text": "Seal slap",
+					"correct": false
+				}
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "What is the traditional dance of the Maori people of New Zealand called?",
+			"answers": [
+				{
+					"text": "Hula",
+					"correct": false
+				},
+				{
+					"text": "Salsa",
+					"correct": false
+				},
+				{
+					"text": "Haka",
+					"correct": true
+				},
+				{
+					"text": "Flamenco",
+					"correct": false
+				}
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "What is the traditional headgear worn by the Ainu people of Japan called?",
+			"answers": [
+				{
+					"text": "Sarong",
+					"correct": false
+				},
+				{
+					"text": "Turban",
+					"correct": false
+				},
+				{
+					"text": "Chador",
+					"correct": false
+				},
+				{
+					"text": "Mukkuri",
+					"correct": true
+				}
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "Which South American country is known for the traditional dance of the Marinera?",
+			"answers": [
+				{
+					"text": "Argentina",
+					"correct": false
+				},
+				{
+					"text": "Chile",
+					"correct": false
+				},
+				{
+					"text": "Peru",
+					"correct": true
+				},
+				{
+					"text": "Colombia",
+					"correct": false
+				}
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "Which Central Asian country is known for its traditional felt-making art, called Shyrdak?",
+			"answers": [
+				{
+					"text": "Kazakhstan",
+					"correct": true
+				},
+				{
+					"text": "Uzbekistan",
+					"correct": false
+				},
+				{
+					"text": "Kyrgyzstan",
+					"correct": false
+				},
+				{
+					"text": "Tajikistan",
+					"correct": false
+				}
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "What is the national dish of Japan?",
+			"answers": [
+				{
+					"text": "Sushi",
+					"correct": false
+				},
+				{
+					"text": "Tempura",
+					"correct": false
+				},
+				{
+					"text": "Ramen",
+					"correct": false
+				},
+				{
+					"text": "Soba",
+					"correct": true
+				}
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "What is the traditional head covering for Muslim women called?",
+			"answers": [
+				{
+					"text": "Hijab",
+					"correct": true
+				},
+				{
+					"text": "Kippah",
+					"correct": false
+				},
+				{
+					"text": "Turbans",
+					"correct": false
+				},
+				{
+					"text": "Fedora",
+					"correct": false
+				}
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "What is the traditional greeting in India called?",
+			"answers": [
+				{
+					"text": "Namaste",
+					"correct": true
+				},
+				{
+					"text": "Hola",
+					"correct": false
+				},
+				{
+					"text": "Bonjour",
+					"correct": false
+				},
+				{
+					"text": "Ciao",
+					"correct": false
+				}
+			],
+			"category": "cultures"
+		},
+		{
 			"question": "Which country is the birthplace of the tango?",
 			"answers": [
 				{ "text": "Argentina", "correct": true },
@@ -67,6 +419,116 @@
 				{ "text": "Kimono", "correct": false },
 				{ "text": "Qipao", "correct": false },
 				{ "text": "Abaya", "correct": false }
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "What is the traditional dress of the Bedouin people in the Arabian Peninsula?",
+			"answers": [
+				{
+					"text": "Thawb",
+					"correct": false
+				},
+				{
+					"text": "Dishdasha",
+					"correct": false
+				},
+				{
+					"text": "Abaya",
+					"correct": false
+				},
+				{
+					"text": "Keffiyeh",
+					"correct": true
+				}
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "What is the name of the traditional circular dwelling of the Kazakh people?",
+			"answers": [
+				{
+					"text": "Yurt",
+					"correct": true
+				},
+				{
+					"text": "Tipi",
+					"correct": false
+				},
+				{
+					"text": "Wigwam",
+					"correct": false
+				},
+				{
+					"text": "Igloo",
+					"correct": false
+				}
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "What is the name of the Native American tribe that famously used the totem pole?",
+			"answers": [
+				{
+					"text": "Inuit",
+					"correct": false
+				},
+				{
+					"text": "Hopi",
+					"correct": false
+				},
+				{
+					"text": "Cherokee",
+					"correct": false
+				},
+				{
+					"text": "Tlingit",
+					"correct": true
+				}
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "What is the Jewish New Year called?",
+			"answers": [
+				{
+					"text": "Yom Kippur",
+					"correct": false
+				},
+				{
+					"text": "Passover",
+					"correct": false
+				},
+				{
+					"text": "Rosh Hashanah",
+					"correct": true
+				},
+				{
+					"text": "Hanukkah",
+					"correct": false
+				}
+			],
+			"category": "cultures"
+		},
+		{
+			"question": "What is the name of the traditional flatbread in Arabic cuisine?",
+			"answers": [
+				{
+					"text": "Pita",
+					"correct": true
+				},
+				{
+					"text": "Naan",
+					"correct": false
+				},
+				{
+					"text": "Roti",
+					"correct": false
+				},
+				{
+					"text": "Chapati",
+					"correct": false
+				}
 			],
 			"category": "cultures"
 		},
@@ -646,6 +1108,94 @@
 			"category": "history"
 		},
 		{
+			"question": "What year did the Berlin Wall fall?",
+			"answers": [
+				{
+					"text": "1989",
+					"correct": true
+				},
+				{
+					"text": "1991",
+					"correct": false
+				},
+				{
+					"text": "1961",
+					"correct": false
+				},
+				{
+					"text": "1945",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "Who was the last queen of France?",
+			"answers": [
+				{
+					"text": "Marie Antoinette",
+					"correct": true
+				},
+				{
+					"text": "Catherine de' Medici",
+					"correct": false
+				},
+				{
+					"text": "Eleanor of Aquitaine",
+					"correct": false
+				},
+				{
+					"text": "Anne Boleyn",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "Where did Napoleon Bonaparte die?",
+			"answers": [
+				{
+					"text": "Elba",
+					"correct": false
+				},
+				{
+					"text": "St. Helena",
+					"correct": true
+				},
+				{
+					"text": "Corsica",
+					"correct": false
+				},
+				{
+					"text": "Waterloo",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "What was the name of the famous battle in which 300 Spartans fought against a massive Persian army?",
+			"answers": [
+				{
+					"text": "Battle of Marathon",
+					"correct": false
+				},
+				{
+					"text": "Battle of Thermopylae",
+					"correct": true
+				},
+				{
+					"text": "Battle of Salamis",
+					"correct": false
+				},
+				{
+					"text": "Battle of Plataea",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
 			"question": "What was the main cause of the American Civil War?",
 			"answers": [
 				{ "text": "Taxation without representation", "correct": false },
@@ -775,22 +1325,154 @@
 			"category": "history"
 		},
 		{
-			"question": "Who was the first person to circumnavigate the globe?",
+			"question": "Who was the first known person to circumnavigate the globe?",
 			"answers": [
 				{
 					"text": "Ferdinand Magellan",
+					"correct": false
+				},
+				{
+					"text": "Juan Sebastián Elcano",
 					"correct": true
+				},
+				{
+					"text": "Francis Drake",
+					"correct": false
+				},
+				{
+					"text": "Christopher Columbus",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "Who was the legendary African queen who fought against the Roman Empire?",
+			"answers": [
+				{
+					"text": "Nzinga",
+					"correct": false
+				},
+				{
+					"text": "Cleopatra",
+					"correct": false
+				},
+				{
+					"text": "Makeda",
+					"correct": false
+				},
+				{
+					"text": "Amanirenas",
+					"correct": true
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "Who was the Viking explorer who is believed to have reached North America before Columbus?",
+			"answers": [
+				{
+					"text": "Erik the Red",
+					"correct": false
+				},
+				{
+					"text": "Leif Erikson",
+					"correct": true
+				},
+				{
+					"text": "Olaf Tryggvason",
+					"correct": false
+				},
+				{
+					"text": "Harald Hardrada",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "Who was the Japanese samurai warrior who is also known as the 'Black Samurai'?",
+			"answers": [
+				{
+					"text": "Miyamoto Musashi",
+					"correct": false
+				},
+				{
+					"text": "Takeda Shingen",
+					"correct": false
+				},
+				{
+					"text": "Date Masamune",
+					"correct": false
+				},
+				{
+					"text": "Yasuke",
+					"correct": true
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "Who was the Chinese admiral who led several naval expeditions to Southeast Asia, South Asia, the Middle East, and East Africa in the early 15th century?",
+			"answers": [
+				{
+					"text": "Zheng He",
+					"correct": true
+				},
+				{
+					"text": "Sun Tzu",
+					"correct": false
+				},
+				{
+					"text": "Kangxi Emperor",
+					"correct": false
+				},
+				{
+					"text": "Qianlong Emperor",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "Who was the first person to discover that the Earth is round?",
+			"answers": [
+				{
+					"text": "Pythagoras",
+					"correct": false
+				},
+				{
+					"text": "Aristotle",
+					"correct": false
 				},
 				{
 					"text": "Christopher Columbus",
 					"correct": false
 				},
 				{
-					"text": "Marco Polo",
+					"text": "Erathosthenes",
+					"correct": true
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "In what year was it first discovered that the Earth is round?",
+			"answers": [
+				{
+					"text": "400 BC",
+					"correct": true
+				},
+				{
+					"text": "1500 AD",
 					"correct": false
 				},
 				{
-					"text": "Vasco da Gama",
+					"text": "1700 AD",
+					"correct": false
+				},
+				{
+					"text": "1900 AD",
 					"correct": false
 				}
 			],
@@ -818,6 +1500,381 @@
 			],
 			"category": "history"
 		},
+		{
+			"question": "In what year did World War II begin?",
+			"answers": [
+				{
+					"text": "1939",
+					"correct": true
+				},
+				{
+					"text": "1941",
+					"correct": false
+				},
+				{
+					"text": "1945",
+					"correct": false
+				},
+				{
+					"text": "1914",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "Who was the leader of the Soviet Union during the Cold War?",
+			"answers": [
+				{
+					"text": "Joseph Stalin",
+					"correct": false
+				},
+				{
+					"text": "Nikita Khrushchev",
+					"correct": false
+				},
+				{
+					"text": "Leonid Brezhnev",
+					"correct": false
+				},
+				{
+					"text": "Mikhail Gorbachev",
+					"correct": true
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "Who discovered penicillin?",
+			"answers": [
+				{
+					"text": "Alexander Fleming",
+					"correct": true
+				},
+				{
+					"text": "Marie Curie",
+					"correct": false
+				},
+				{
+					"text": "Albert Einstein",
+					"correct": false
+				},
+				{
+					"text": "Isaac Newton",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "Who was the first female prime minister of the United Kingdom?",
+			"answers": [
+				{
+					"text": "Margaret Thatcher",
+					"correct": true
+				},
+				{
+					"text": "Theresa May",
+					"correct": false
+				},
+				{
+					"text": "Angela Merkel",
+					"correct": false
+				},
+				{
+					"text": "Jacinda Ardern",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "In what year did the American Civil War end?",
+			"answers": [
+				{
+					"text": "1901",
+					"correct": false
+				},
+				{
+					"text": "1792",
+					"correct": false
+				},
+				{
+					"text": "1865",
+					"correct": true
+				},
+				{
+					"text": "It's still going on",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "Who invented the telephone?",
+			"answers": [
+				{
+					"text": "Alexander Graham Bell",
+					"correct": true
+				},
+				{
+					"text": "Thomas Edison",
+					"correct": false
+				},
+				{
+					"text": "Nikola Tesla",
+					"correct": false
+				},
+				{
+					"text": "Guglielmo Marconi",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "Who was the first emperor of Rome?",
+			"answers": [
+				{
+					"text": "Julius Caesar",
+					"correct": false
+				},
+				{
+					"text": "Augustus",
+					"correct": true
+				},
+				{
+					"text": "Caligula",
+					"correct": false
+				},
+				{
+					"text": "Nero",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "What was the name of the German air force during World War II?",
+			"answers": [
+				{
+					"text": "Kriegsmarine",
+					"correct": false
+				},
+				{
+					"text": "Wehrmacht",
+					"correct": false
+				},
+				{
+					"text": "Luftwaffe",
+					"correct": true
+				},
+				{
+					"text": "Waffen-SS",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "What was the significance of the Battle of Stalingrad during World War II?",
+			"answers": [
+				{
+					"text": "It marked the beginning of Germany's defeat in the war.",
+					"correct": true
+				},
+				{
+					"text": "It marked the end of Germany's offensive on the Eastern Front.",
+					"correct": false
+				},
+				{
+					"text": "It marked the end of the war in Europe.",
+					"correct": false
+				},
+				{
+					"text": "It had no significant impact on the outcome of the war.",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "Who was the Supreme Commander of the Allied Forces in Europe during World War II?",
+			"answers": [
+				{
+					"text": "Winston Churchill",
+					"correct": false
+				},
+				{
+					"text": "Dwight D. Eisenhower",
+					"correct": true
+				},
+				{
+					"text": "Franklin D. Roosevelt",
+					"correct": false
+				},
+				{
+					"text": "George S. Patton",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "What was the significance of D-Day during World War II?",
+			"answers": [
+				{
+					"text": "It marked the beginning of the war in Europe.",
+					"correct": false
+				},
+				{
+					"text": "It marked the end of the war in Europe.",
+					"correct": false
+				},
+				{
+					"text": "It was the largest amphibious invasion in history and marked the beginning of the liberation of German-occupied France.",
+					"correct": true
+				},
+				{
+					"text": "It was a failed attempt to invade Germany.",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "What was the name of the Japanese attack on the United States that led to its entry into World War II?",
+			"answers": [
+				{
+					"text": "The Battle of Midway",
+					"correct": false
+				},
+				{
+					"text": "The Attack on Pearl Harbor",
+					"correct": true
+				},
+				{
+					"text": "The Battle of Okinawa",
+					"correct": false
+				},
+				{
+					"text": "The Invasion of Normandy",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "What were the names of the atomic bombs dropped on Hiroshima and Nagasaki?",
+			"answers": [
+				{
+					"text": "Little Boy and Fat Man",
+					"correct": true
+				},
+				{
+					"text": "Thin Man and Tall Boy",
+					"correct": false
+				},
+				{
+					"text": "Buster-Jangle and Ivy Mike",
+					"correct": false
+				},
+				{
+					"text": "Trinity and Bravo",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "When was the first atomic bomb dropped on Hiroshima?",
+			"answers": [
+				{
+					"text": "August 6, 1945",
+					"correct": true
+				},
+				{
+					"text": "July 16, 1945",
+					"correct": false
+				},
+				{
+					"text": "August 9, 1945",
+					"correct": false
+				},
+				{
+					"text": "September 2, 1945",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "Which country dropped the atomic bombs on Hiroshima and Nagasaki?",
+			"answers": [
+				{
+					"text": "United States",
+					"correct": true
+				},
+				{
+					"text": "Soviet Union",
+					"correct": false
+				},
+				{
+					"text": "Germany",
+					"correct": false
+				},
+				{
+					"text": "Japan",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "What was the profession of Amerigo Vespucci?",
+			"answers": [
+				{
+					"text": "Explorer",
+					"correct": true
+				},
+				{
+					"text": "Merchant",
+					"correct": false
+				},
+				{
+					"text": "Soldier",
+					"correct": false
+				},
+				{
+					"text": "Scientist",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+		{
+			"question": "What is Leif Erikson best known for?",
+			"answers": [
+				{
+					"text": "Discovering Greenland",
+					"correct": false
+				},
+				{
+					"text": "Discovering North America",
+					"correct": true
+				},
+				{
+					"text": "Discovering South America",
+					"correct": false
+				},
+				{
+					"text": "Discovering Australia",
+					"correct": false
+				}
+			],
+			"category": "history"
+		},
+
 		{
 			"question": "What is the chemical symbol for gold?",
 			"answers": [
@@ -2017,6 +3074,116 @@
 			"category": "food"
 		},
 		{
+			"question": "What type of cuisine is kimchi a staple of?",
+			"answers": [
+				{
+					"text": "Korean cuisine",
+					"correct": true
+				},
+				{
+					"text": "Chinese cuisine",
+					"correct": false
+				},
+				{
+					"text": "Japanese cuisine",
+					"correct": false
+				},
+				{
+					"text": "Thai cuisine",
+					"correct": false
+				}
+			],
+			"category": "food"
+		},
+		{
+			"question": "What type of pastry is used to make baklava?",
+			"answers": [
+				{
+					"text": "Phyllo dough",
+					"correct": true
+				},
+				{
+					"text": "Puff pastry",
+					"correct": false
+				},
+				{
+					"text": "Shortcrust pastry",
+					"correct": false
+				},
+				{
+					"text": "Choux pastry",
+					"correct": false
+				}
+			],
+			"category": "food"
+		},
+		{
+			"question": "What type of cuisine is pho a popular dish in?",
+			"answers": [
+				{
+					"text": "Vietnamese cuisine",
+					"correct": true
+				},
+				{
+					"text": "Chinese cuisine",
+					"correct": false
+				},
+				{
+					"text": "Japanese cuisine",
+					"correct": false
+				},
+				{
+					"text": "Thai cuisine",
+					"correct": false
+				}
+			],
+			"category": "food"
+		},
+		{
+			"question": "What type of meat is traditionally used to make a French cassoulet?",
+			"answers": [
+				{
+					"text": "Pork",
+					"correct": true
+				},
+				{
+					"text": "Beef",
+					"correct": false
+				},
+				{
+					"text": "Lamb",
+					"correct": false
+				},
+				{
+					"text": "Chicken",
+					"correct": false
+				}
+			],
+			"category": "food"
+		},
+		{
+			"question": "What type of nut is used to make pesto sauce?",
+			"answers": [
+				{
+					"text": "Pine nuts",
+					"correct": true
+				},
+				{
+					"text": "Almonds",
+					"correct": false
+				},
+				{
+					"text": "Cashews",
+					"correct": false
+				},
+				{
+					"text": "Walnuts",
+					"correct": false
+				}
+			],
+			"category": "food"
+		},
+		{
 			"question": "What is the name of a traditional Mexican dish consisting of a tortilla filled with cheese?",
 			"answers": [
 				{ "text": "Taco", "correct": false },
@@ -2053,6 +3220,138 @@
 				{ "text": "Cheesecake", "correct": false },
 				{ "text": "Crème Brûlée", "correct": false },
 				{ "text": "Éclair", "correct": true }
+			],
+			"category": "food"
+		},
+		{
+			"question": "What is the main ingredient in hummus?",
+			"answers": [
+				{
+					"text": "Chickpeas",
+					"correct": true
+				},
+				{
+					"text": "Lentils",
+					"correct": false
+				},
+				{
+					"text": "Black beans",
+					"correct": false
+				},
+				{
+					"text": "Kidney beans",
+					"correct": false
+				}
+			],
+			"category": "food"
+		},
+		{
+			"question": "What type of pasta is shaped like a small ear?",
+			"answers": [
+				{
+					"text": "Farfalle",
+					"correct": false
+				},
+				{
+					"text": "Penne",
+					"correct": false
+				},
+				{
+					"text": "Orecchiette",
+					"correct": true
+				},
+				{
+					"text": "Rigatoni",
+					"correct": false
+				}
+			],
+			"category": "food"
+		},
+		{
+			"question": "What is the primary ingredient in guacamole?",
+			"answers": [
+				{
+					"text": "Avocado",
+					"correct": true
+				},
+				{
+					"text": "Tomato",
+					"correct": false
+				},
+				{
+					"text": "Onion",
+					"correct": false
+				},
+				{
+					"text": "Lime",
+					"correct": false
+				}
+			],
+			"category": "food"
+		},
+		{
+			"question": "What type of fish is traditionally used in fish and chips?",
+			"answers": [
+				{
+					"text": "Salmon",
+					"correct": false
+				},
+				{
+					"text": "Cod",
+					"correct": true
+				},
+				{
+					"text": "Tuna",
+					"correct": false
+				},
+				{
+					"text": "Sardines",
+					"correct": false
+				}
+			],
+			"category": "food"
+		},
+		{
+			"question": "What is the main ingredient in pesto sauce?",
+			"answers": [
+				{
+					"text": "Basil",
+					"correct": true
+				},
+				{
+					"text": "Spinach",
+					"correct": false
+				},
+				{
+					"text": "Arugula",
+					"correct": false
+				},
+				{
+					"text": "Kale",
+					"correct": false
+				}
+			],
+			"category": "food"
+		},
+		{
+			"question": "What type of fish is used to make sushi?",
+			"answers": [
+				{
+					"text": "Salmon",
+					"correct": false
+				},
+				{
+					"text": "Tuna",
+					"correct": true
+				},
+				{
+					"text": "Trout",
+					"correct": false
+				},
+				{
+					"text": "Cod",
+					"correct": false
+				}
 			],
 			"category": "food"
 		},
@@ -2203,6 +3502,358 @@
 				{ "text": "Monica Apartments", "correct": false },
 				{ "text": "Green Apartments", "correct": false },
 				{ "text": "Wentworth Apartments", "correct": true }
+			],
+			"category": "friends"
+		},
+		{
+			"question": "What is the name of Ross's monkey in the first season of Friends?",
+			"answers": [
+				{
+					"text": "Marcel",
+					"correct": true
+				},
+				{
+					"text": "Joey",
+					"correct": false
+				},
+				{
+					"text": "Chandler",
+					"correct": false
+				},
+				{
+					"text": "Phoebe",
+					"correct": false
+				}
+			],
+			"category": "friends"
+		},
+		{
+			"question": "What is the name of the coffeehouse where the friends often hang out in the first season of Friends?",
+			"answers": [
+				{
+					"text": "Central Perk",
+					"correct": true
+				},
+				{
+					"text": "Starbucks",
+					"correct": false
+				},
+				{
+					"text": "Cafe des Amis",
+					"correct": false
+				},
+				{
+					"text": "The Beanery",
+					"correct": false
+				}
+			],
+			"category": "friends"
+		},
+		{
+			"question": "What is Chandler's job in the first season of Friends?",
+			"answers": [
+				{
+					"text": "Data Processor",
+					"correct": true
+				},
+				{
+					"text": "Actor",
+					"correct": false
+				},
+				{
+					"text": "Transponster",
+					"correct": false
+				},
+				{
+					"text": "Musician",
+					"correct": false
+				}
+			],
+			"category": "friends"
+		},
+		{
+			"question": "What is the name of the woman who Ross is in love with in the first season of Friends?",
+			"answers": [
+				{
+					"text": "Carol",
+					"correct": true
+				},
+				{
+					"text": "Janice",
+					"correct": false
+				},
+				{
+					"text": "Monica",
+					"correct": false
+				},
+				{
+					"text": "Rachel",
+					"correct": false
+				}
+			],
+			"category": "friends"
+		},
+		{
+			"question": "What is Joey's job in the first season of Friends?",
+			"answers": [
+				{
+					"text": "Actor",
+					"correct": true
+				},
+				{
+					"text": "Musician",
+					"correct": false
+				},
+				{
+					"text": "Chef",
+					"correct": false
+				},
+				{
+					"text": "Data Processor",
+					"correct": false
+				}
+			],
+			"category": "friends"
+		},
+		{
+			"question": "In the Friends episode 'The One Where Ross Finds Out', who tells Ross that Rachel has feelings for him?",
+			"answers": [
+				{
+					"text": "Joey",
+					"correct": false
+				},
+				{
+					"text": "Chandler",
+					"correct": false
+				},
+				{
+					"text": "Phoebe",
+					"correct": true
+				},
+				{
+					"text": "Monica",
+					"correct": false
+				}
+			],
+			"category": "friends"
+		},
+		{
+			"question": "What is the name of the Friends episode where Joey wears all of Chandler's clothes?",
+			"answers": [
+				{
+					"text": "The One with Joey's Big Break",
+					"correct": false
+				},
+				{
+					"text": "The One with the Embryos",
+					"correct": false
+				},
+				{
+					"text": "The One Where No One's Ready",
+					"correct": true
+				},
+				{
+					"text": "The One Where Ross and Rachel Take a Break",
+					"correct": false
+				}
+			],
+			"category": "friends"
+		},
+		{
+			"question": "In the Friends episode 'The One with the Prom Video', who convinces Ross to take Rachel to the prom?",
+			"answers": [
+				{
+					"text": "Monica",
+					"correct": false
+				},
+				{
+					"text": "Phoebe",
+					"correct": false
+				},
+				{
+					"text": "Chandler",
+					"correct": false
+				},
+				{
+					"text": "Joey",
+					"correct": true
+				}
+			],
+			"category": "friends"
+		},
+		{
+			"question": "In the episode \"The One with the Embryos\", what does Ross name his team for the trivia game?",
+			"answers": [
+				{
+					"text": "The Lightning Bolts",
+					"correct": false
+				},
+				{
+					"text": "The Thunderbolts",
+					"correct": false
+				},
+				{
+					"text": "The Lightning Monkeys",
+					"correct": true
+				},
+				{
+					"text": "The Thunder Monkeys",
+					"correct": false
+				}
+			],
+			"category": "friends"
+		},
+		{
+			"question": "In which season of Friends does Joey move out of Chandler's apartment?",
+			"answers": [
+				{
+					"text": "Season 6",
+					"correct": false
+				},
+				{
+					"text": "Season 7",
+					"correct": true
+				},
+				{
+					"text": "Season 8",
+					"correct": false
+				},
+				{
+					"text": "Season 9",
+					"correct": false
+				}
+			],
+			"category": "friends"
+		},
+		{
+			"question": "What is the name of one of the episodes where Ross and Rachel break up?",
+			"answers": [
+				{
+					"text": "The One with the Morning After",
+					"correct": true
+				},
+				{
+					"text": "The One with the Prom Video",
+					"correct": false
+				},
+				{
+					"text": "The One Where Ross Finds Out",
+					"correct": false
+				},
+				{
+					"text": "The One with the Jellyfish",
+					"correct": false
+				}
+			],
+			"category": "friends"
+		},
+		{
+			"question": "In what season of Friends does Ross get married to Emily?",
+			"answers": [
+				{
+					"text": "Season 4",
+					"correct": false
+				},
+				{
+					"text": "Season 5",
+					"correct": true
+				},
+				{
+					"text": "Season 6",
+					"correct": false
+				},
+				{
+					"text": "Season 7",
+					"correct": false
+				}
+			],
+			"category": "friends"
+		},
+		{
+			"question": "What does Joey do to Monica's turkey in 'The One with All the Thanksgivings'?",
+			"answers": [
+				{
+					"text": "Puts a turkey on his head",
+					"correct": true
+				},
+				{
+					"text": "Drops the turkey on the floor",
+					"correct": false
+				},
+				{
+					"text": "Burns the turkey",
+					"correct": false
+				},
+				{
+					"text": "Feeds the turkey to the dog",
+					"correct": false
+				}
+			],
+			"category": "friends"
+		},
+		{
+			"question": "What happens to Phoebe's wedding plans in 'The One with Phoebe's Wedding'?",
+			"answers": [
+				{
+					"text": "She ends up marrying Mike",
+					"correct": true
+				},
+				{
+					"text": "She decides not to get married",
+					"correct": false
+				},
+				{
+					"text": "Her fiancé backs out",
+					"correct": false
+				},
+				{
+					"text": "Her wedding is interrupted by a fire",
+					"correct": false
+				}
+			],
+			"category": "friends"
+		},
+		{
+			"question": "What happens to Rachel's job at Ralph Lauren in 'The One with Rachel's Inadvertent Kiss'?",
+			"answers": [
+				{
+					"text": "She gets promoted to assistant buyer",
+					"correct": true
+				},
+				{
+					"text": "She gets fired",
+					"correct": false
+				},
+				{
+					"text": "She quits",
+					"correct": false
+				},
+				{
+					"text": "She gets demoted",
+					"correct": false
+				}
+			],
+			"category": "friends"
+		},
+		{
+			"question": "What is the name of the episode where Chandler and Monica first hook up?",
+			"answers": [
+				{
+					"text": "The One Where Ross Finds Out",
+					"correct": false
+				},
+				{
+					"text": "The One with the Proposal",
+					"correct": false
+				},
+				{
+					"text": "The One with All the Resolutions",
+					"correct": false
+				},
+				{
+					"text": "The One Where Everybody Finds Out",
+					"correct": true
+				}
 			],
 			"category": "friends"
 		},
@@ -2533,6 +4184,248 @@
 				{ "text": "15", "correct": false },
 				{ "text": "11", "correct": true },
 				{ "text": "9", "correct": false }
+			],
+			"category": "sports"
+		},
+		{
+			"question": "Which player has won the most NBA championships in history?",
+			"answers": [
+				{
+					"text": "Michael Jordan",
+					"correct": false
+				},
+				{
+					"text": "Kareem Abdul-Jabbar",
+					"correct": true
+				},
+				{
+					"text": "Bill Russell",
+					"correct": false
+				},
+				{
+					"text": "LeBron James",
+					"correct": false
+				}
+			],
+			"category": "sports"
+		},
+		{
+			"question": "Who is the current UFC heavyweight champion?",
+			"answers": [
+				{
+					"text": "Francis Ngannou",
+					"correct": true
+				},
+				{
+					"text": "Stipe Miocic",
+					"correct": false
+				},
+				{
+					"text": "Jon Jones",
+					"correct": false
+				},
+				{
+					"text": "Conor McGregor",
+					"correct": false
+				}
+			],
+			"category": "sports"
+		},
+		{
+			"question": "Which country won the 2018 FIFA World Cup?",
+			"answers": [
+				{
+					"text": "Brazil",
+					"correct": false
+				},
+				{
+					"text": "Spain",
+					"correct": false
+				},
+				{
+					"text": "France",
+					"correct": true
+				},
+				{
+					"text": "Germany",
+					"correct": false
+				}
+			],
+			"category": "sports"
+		},
+		{
+			"question": "Which footballer has won the most Ballon d'Or awards?",
+			"answers": [
+				{
+					"text": "Lionel Messi",
+					"correct": true
+				},
+				{
+					"text": "Cristiano Ronaldo",
+					"correct": false
+				},
+				{
+					"text": "Michel Platini",
+					"correct": false
+				},
+				{
+					"text": "Johan Cruyff",
+					"correct": false
+				}
+			],
+			"category": "sports"
+		},
+		{
+			"question": "Who is the all-time top scorer in the history of the Brazilian national football team?",
+			"answers": [
+				{
+					"text": "Neymar",
+					"correct": false
+				},
+				{
+					"text": "Ronaldo",
+					"correct": false
+				},
+				{
+					"text": "Pele",
+					"correct": true
+				},
+				{
+					"text": "Romario",
+					"correct": false
+				}
+			],
+			"category": "sports"
+		},
+		{
+			"question": "Which footballer has won the most UEFA Champions League titles?",
+			"answers": [
+				{
+					"text": "Lionel Messi",
+					"correct": false
+				},
+				{
+					"text": "Cristiano Ronaldo",
+					"correct": true
+				},
+				{
+					"text": "Paolo Maldini",
+					"correct": false
+				},
+				{
+					"text": "Clarence Seedorf",
+					"correct": false
+				}
+			],
+			"category": "sports"
+		},
+		{
+			"question": "Who is the only footballer to have won the World Cup three times as a player?",
+			"answers": [
+				{
+					"text": "Pele",
+					"correct": true
+				},
+				{
+					"text": "Diego Maradona",
+					"correct": false
+				},
+				{
+					"text": "Johan Cruyff",
+					"correct": false
+				},
+				{
+					"text": "Franz Beckenbauer",
+					"correct": false
+				}
+			],
+			"category": "sports"
+		},
+		{
+			"question": "Who is the first and only MMA fighter to hold titles in two weight classes simultaneously in the UFC?",
+			"answers": [
+				{
+					"text": "Conor McGregor",
+					"correct": true
+				},
+				{
+					"text": "Jon Jones",
+					"correct": false
+				},
+				{
+					"text": "Georges St-Pierre",
+					"correct": false
+				},
+				{
+					"text": "Demetrious Johnson",
+					"correct": false
+				}
+			],
+			"category": "sports"
+		},
+		{
+			"question": "What is the nickname of MMA fighter Anderson Silva?",
+			"answers": [
+				{
+					"text": "The Spider",
+					"correct": true
+				},
+				{
+					"text": "The Dragon",
+					"correct": false
+				},
+				{
+					"text": "The Iceman",
+					"correct": false
+				},
+				{
+					"text": "The Natural",
+					"correct": false
+				}
+			],
+			"category": "sports"
+		},
+		{
+			"question": "Who is the youngest UFC champion in history?",
+			"answers": [
+				{
+					"text": "Anderson Silva",
+					"correct": false
+				},
+				{
+					"text": "Jon Jones",
+					"correct": false
+				},
+				{
+					"text": "Georges St-Pierre",
+					"correct": false
+				},
+				{
+					"text": "Vitor Belfort",
+					"correct": true
+				}
+			],
+			"category": "sports"
+		},
+		{
+			"question": "Which player has won the most Wimbledon titles in history?",
+			"answers": [
+				{
+					"text": "Roger Federer",
+					"correct": true
+				},
+				{
+					"text": "Rafael Nadal",
+					"correct": false
+				},
+				{
+					"text": "Pete Sampras",
+					"correct": false
+				},
+				{
+					"text": "Bjorn Borg",
+					"correct": false
+				}
 			],
 			"category": "sports"
 		},
