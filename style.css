@@ -144,18 +144,16 @@ body {
 		linear-gradient(var(--tilecolour, var(--base-tilecolour)), rgba(0, 0, 0, 0.95));
 	background-blend-mode: overlay;
 	background-size: cover;
-	background-position-x: right;
+	background-position: right;
 }
 
 .tile-music {
-	/* background-image: url('files/music.jpeg'); */
 	background: url("files/music.jpeg"),
 		linear-gradient(var(--tilecolour, var(--base-tilecolour)), rgba(0, 0, 0, 0.95));
 	background-blend-mode: overlay;
 	background-size: cover;
 }
 .tile-literature {
-	/* background-image: url('files/literature.jpg'); */
 	background: url("files/literature.jpg"),
 	linear-gradient(var(--tilecolour, var(--base-tilecolour)), rgba(0, 0, 0, 0.95));
 	background-blend-mode: overlay;
